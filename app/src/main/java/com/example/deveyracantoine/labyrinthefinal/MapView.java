@@ -67,7 +67,7 @@ package com.hexagonal_games.labyrinthe;
             transform = new Matrix();
             reverse = new Matrix();
 
-            sprite = SpriteSheet.get(this.getContext(), R.drawable.map,2,1);
+            sprite = SpriteSheet.get(this.getContext(), R.drawable.map,2,2);
             src = new Rect(0,0, sprite.w, sprite.h);
             tmp = new RectF();
 
